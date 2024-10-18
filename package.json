@@ -1,0 +1,7 @@
+{
+    "name": "mcpe-utilities",
+    "scripts": {
+        "dev": "python3 -m http.server 8000",
+        "cmd": "sh -c 'find . -type f -name \"*.sh\" -exec chmod +x {} \\;'"
+    }
+}
