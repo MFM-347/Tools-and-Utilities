@@ -1,4 +1,6 @@
-.idx/
+xy/
+*.xy.*.idx/
 .vscode/
 xy/
 *.xy.*
+node_modules/
