@@ -6,6 +6,8 @@ from colorama import init, Fore, Style
 
 init(autoreset=True)
 
+print(f"{Fore.YELLOW}Welcome to the ManiGen (Minecraft BE Resource Pack Manifest Generator){Style.RESET_ALL}")
+
 def generate_uuid():
     return str(uuid.uuid4())
     
@@ -57,8 +59,6 @@ def main():
     args = parser.parse_args()
 
     if args.command == 'init':
-        print(f"{Fore.YELLOW}Welcome to the ManiGen (Minecraft BE Resource Pack Manifest Generator){Style.RESET_ALL}")
-        
         pack_name = get_user_input("Enter the resource pack name", "My Resource Pack")
         description = get_user_input("Enter the resource pack description", "A custom resource pack")
         
