@@ -1,6 +1,6 @@
 # RenPy
 
-RenPy is a Python-based command-line tool designed to streamline the process of renaming multiple files in a directory. If you need to rename files sequentially with a common base name, RenPy can help automate this process by renaming each file with a consistent naming convention.
+  RenPy is a Python-based command-line tool designed to streamline the process of renaming multiple files in a directory.
 
 ## How to Use
 To use RenPy, you'll need to specify the target directory and the base name you'd like for the files.

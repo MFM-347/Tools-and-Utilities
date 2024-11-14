@@ -2,7 +2,7 @@
 
   ManiGen is a Python-based command-line tool designed to simplify the process of generating manifests for Minecraft resource packs. If you're looking to quickly set up a template, this tool removes the hassle of manual manifest creation.
 
-## How to Use
+## Usage
 
 - **Interactive Mode**: To generate a manifest based on your input, run:
   ```shell

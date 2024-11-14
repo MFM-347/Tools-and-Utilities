@@ -1,1 +1,1 @@
-console.log(crypto.randomUUID())
+console.log("UUID: " + crypto.randomUUID())
