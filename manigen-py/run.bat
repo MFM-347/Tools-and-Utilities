@@ -1,9 +1,12 @@
 @echo off
 :menu
+echo ================================
 echo Please choose an option:
+echo ================================
 echo 1. Run 'py manigen.py init'
 echo 2. Run 'py manigen.py template'
 echo 3. Exit
+echo ================================
 set /p choice=Enter your choice (1, 2, or 3): 
 
 if "%choice%"=="1" goto init
